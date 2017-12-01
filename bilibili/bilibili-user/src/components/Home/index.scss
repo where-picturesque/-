@@ -1,0 +1,47 @@
+.Home{
+	.banner{
+		img{
+			width:100%;
+		}
+	}
+	.nextbanner{
+		margin:.2rem 0 .7rem;
+		ul li{
+			float: left;
+			width:50%;
+			height: 4.28rem;
+			img{
+				width:100%;
+			}
+		}
+		li:nth-child(2),li:nth-child(3){
+			height:2.09rem;
+			img{
+				width:50%;
+			}
+		}
+	}
+	.newmenber{
+		img{
+			display: block;
+			width:100%;
+		}
+		.newmenber-title{
+			width:3.33rem;
+			margin-bottom: .4rem;
+		}
+	}
+	.today-new,.hot{
+		margin-top: .6rem;
+		.today-new-t,.hot-t{
+			width: 2.6rem;
+			margin-bottom: .4rem;
+		}
+		ul li{
+			margin-bottom: .2rem;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

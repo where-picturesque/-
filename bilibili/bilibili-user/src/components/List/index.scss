@@ -1,0 +1,74 @@
+
+.List{
+	.cover{
+		background: #fff;
+		.cover-img{
+			height: 3.94rem;
+			margin-bottom: .2rem;
+			overflow: hidden;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	
+}
+.list-mainc{
+	ul{
+		display: flex;
+		justify-content:space-between;
+		flex-wrap:wrap;
+		li{
+			width:3.3rem;
+		}
+		li a{
+			display: block;
+			.product-img{
+				width: 100%;
+				img{
+					width: 100%;
+				}
+			}
+		}
+
+
+		
+	}
+}
+.product-info{
+	.brandName{
+		font: 700 .30rem/.40rem "";
+	}
+	.marketPrice{
+		color: #bbb;
+		text-decoration: line-through;
+	}
+	.price{
+		color: #dd2828;
+	}
+}
+.info-t{
+	font-size:12px;
+	.isNewProduct{
+		padding:2px;
+		background: #dd2828;
+		margin-right: 5px;
+		color: #fff;
+	}
+	.isRecommend{
+		padding:2px;
+		border:1px solid #000;
+	}
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+  padding-left: 0;
+  padding-right: 10px;
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+  padding-left: 10px;
+  padding-right: 0;
+}
+.arrow-align {
+  display: flex;
+  align-items: center;
+}

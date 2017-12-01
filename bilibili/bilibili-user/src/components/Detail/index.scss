@@ -1,0 +1,88 @@
+.detail{
+	background: #fff;
+	margin-top:-.88rem;
+	.swipe{
+		img{
+			width:100%;
+		}
+	}
+	.detail-info{
+		ul li{
+			
+			border-bottom: 1px solid #ddd;
+			padding: .4rem 0;
+			font-size:  .26rem;
+			line-height: .4rem;
+			color: #666;
+			span{
+				margin-right: .15rem;
+			}
+			.name{
+				font-weight: 700;
+				font-size: .3rem;
+				color: #000;
+			}
+			.marketPrice{
+				text-decoration: line-through;
+			}
+			.price-num{
+				color: #dd2828;
+				font-weight: 700;
+				margin-right: .2rem;
+				margin-bottom: .05rem;
+			}
+			.addToCart{
+				float: right;
+				padding: .1rem; 
+				background: #dd2828;
+				color: #fff;
+			}
+			.discount{
+				border:1px solid #000;
+				color: #000;
+			}
+			.service{
+				float: left;
+			}
+			dl{
+				float: left;
+				dd{
+					float: left;
+				}
+			}
+			.sizetext{
+				background:#eee;
+				padding:.08rem .14rem;
+				margin-right: .3rem;
+			}
+			.li-t{
+				font-size: .34rem;
+				font-weight: 700;
+				color: #000;
+			}
+			
+			.productimg{
+				img{
+					width:100%;
+				}
+			}
+			.brandinfo{
+				img{
+					width:100%;
+				}
+			}
+		}
+		.attributesList{
+				p{
+					display: flex;
+					span:nth-child(1){
+						flex:3;
+					}
+					span:nth-child(2){
+						flex:5
+					}
+					
+				}
+			}
+	}
+}

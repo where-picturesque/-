@@ -1,0 +1,57 @@
+.cart-recommend{
+	ul{
+		display: flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+	}
+	ul li{
+		
+		width:2rem;
+		font-size: .28rem;
+		img{
+			width: 100%;
+		}
+		.addToCart{
+			padding: .06rem; 
+			background: #dd2828;
+			color: #fff;
+			font-size: .24rem;
+		}
+	}
+}
+.cartList{
+	table{
+		width: 100%;
+	}
+	tr{
+		display: flex;
+		justify-content:space-between;
+		font-size: .24rem;
+		th{
+			text-align: center;
+		}
+		td{
+			// width:2rem;
+			flex:1;
+			text-align: center;
+			img{
+				width:1rem;
+				display: block;
+			}
+			.productName{
+				padding-right: .4rem;
+			}
+			.marketPrice{
+				text-decoration: line-through;
+			}
+			.numchange{
+				span{
+					margin:0 .1rem;
+				}
+
+			}
+		}
+
+	}
+}
+

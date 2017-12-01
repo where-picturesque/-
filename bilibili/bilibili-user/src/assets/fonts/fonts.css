@@ -1,0 +1,21 @@
+@font-face{
+font-family:iconfont;
+src:url("./font_450398_xjv9ehkavur6n7b9.eot");
+src:url("./font_450398_xjv9ehkavur6n7b9.eot") format("embedded-opentype"),
+url("./word.woff") format("woff"),
+url("./font_450398_xjv9ehkavur6n7b9.ttf") format("truetype"),
+url("./font_450398_xjv9ehkavur6n7b9.svg") format("svg")}
+
+.iconfont{
+	font-family:iconfont!important;
+	font-size:.213333rem;
+	font-style:normal;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+.mei-dot:before{
+	content:"\E603"
+}
+.mei-arrow:before{
+	content:"\E604"
+}

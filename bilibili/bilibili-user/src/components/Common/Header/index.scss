@@ -1,0 +1,113 @@
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head{
+		
+	background: #fff;
+	.header{
+		display: flex;
+		justify-content:space-between;
+		height: .88rem;
+		line-height: .88rem;
+		font: .28rem/.88rem "";
+		margin-bottom: .12rem;
+		.header-l{
+			margin-left: .25rem;
+			width:.8rem;
+		}
+		.header-r{
+			width:1.63rem;
+			text-align: center;
+			.icon-bags{
+
+				font-size: .44rem;
+				vertical-align: middle;
+			}
+		}
+		.logo{
+			display: block;
+			margin:0 auto;
+			width:5rem;
+			img{
+				margin:0 1.25rem ;
+				width:2.37rem;
+			}
+			
+		}
+	}
+	.nav{
+		margin:0  .24rem ;
+		height: .87rem;
+		width:7rem;
+		ul{
+			display: flex;
+			justify-content:space-between;
+			font-size: .24rem;
+			li {
+				// width:.8rem;
+				text-align: center;
+				a{
+					display: block;
+					line-height: .5rem;
+				}
+			}
+		}
+		.active{  
+			border-bottom: .04rem solid #dd2828;
+		}
+	}
+}
+
+.list-head{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	.list-header{
+		display: flex;
+		justify-content:space-around;
+		height: .88rem;
+		line-height: .88rem;
+		text-align: center;
+		.mei-arrow{
+			flex:1;
+		}
+		.list-title{
+			font:700 .32rem/.88rem "";
+			flex:3;
+		}
+		.mei-dot{
+			flex:1;
+		}
+	}
+	.sort{
+		ul{
+			display: flex;
+			line-height: .88rem;
+			height: .88rem;
+			justify-content:space-between;
+			font:.28rem/.88rem "";
+			.price-sort{
+				display: inline-block;
+				border:.14rem solid #ddd;
+				border-top-color: transparent;
+				border-left-color: transparent;
+				border-right-color: transparent;
+				margin-left: .06rem;
+			}
+		}
+	}
+}
+.detail-header{
+	line-height: .3rem;
+	font-size:.28rem;
+	margin-top: .08rem;
+	.header-price{
+		color: #dd2828;
+		font-size: .22rem;
+	}
+}
