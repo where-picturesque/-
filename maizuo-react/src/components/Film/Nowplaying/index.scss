@@ -1,0 +1,19 @@
+.nowplaying,.comingsoon{
+	ul li{
+		padding: .4rem 0;
+		border-bottom: 1px dotted #c9c9c9;
+		.item-img{
+			width:1.2rem;
+			height: 1.65rem;
+			float: left;
+		}
+		.item-info{
+			float: left;
+			margin-left: .3rem;
+		}
+		.item-grade{
+			float: right;
+		}
+	}
+	
+}

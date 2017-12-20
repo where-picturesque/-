@@ -1,0 +1,33 @@
+.Detail{
+	background: #e1e1e1;
+	height: 100%;
+	color:#333;
+	.detailInner{
+		line-height: 18px;
+	
+		.detail-t{
+			width:100%;
+			img{width: 100%;}
+		}
+		.detail-title{
+			border-left: 16px solid RGB(228, 200, 156);
+			font-size: 16px;
+			margin:.32rem 0;
+			line-height:20px;
+			padding-left: .08rem;
+		}
+		.detail-info{
+			padding:0 .4rem;
+
+			dl{
+				margin-bottom: .2rem;
+				dt{
+					float: left;
+				}
+				dd{
+					float: left;
+				}
+			}
+		}
+	}
+}

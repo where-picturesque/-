@@ -1,0 +1,30 @@
+nav{
+	position:fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: 5;
+	height: 1rem;
+	background: #282828;
+	display: flex;
+	justify-content:space-between;
+	color: #efefef;
+	font:.28rem/1rem "";
+	i{
+		color:#999;
+	}
+	.nav-l{
+		margin-left: .4rem;
+		float: left;
+		i{
+			margin-right: .4rem;
+		}
+	}
+	.nav-r{
+		margin-right: .4rem;
+		float: right;
+		i{
+			margin-left: .4rem;
+		}
+	}
+}

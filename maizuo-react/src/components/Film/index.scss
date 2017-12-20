@@ -1,0 +1,22 @@
+.film{
+	padding:0 .3rem;
+	background: #f9f9f9;
+	.active{
+		color: #fe6e00;
+		border-bottom: solid;
+	}
+	.film-t{
+		display: flex;
+		justify-content:space-around;
+		height:.9rem;
+		text-align: center;
+		font-size: 16px;
+		line-height: 46px;
+		color: #6a6a6a;
+		border-bottom:1px solid #fe6e00;
+		a{
+			display: block;
+			width: 100%;
+		}
+	}
+}

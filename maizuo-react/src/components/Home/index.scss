@@ -1,0 +1,40 @@
+.home{
+	background:#e1e1e1;
+}
+
+
+.custom-swipe-item-class {
+	width:100%;
+    position: relative;
+    display: inline-block;
+   	img{
+		width: 100%;
+	}
+}
+.home-nowplaying,.home-coming{
+	margin-top: .36rem;
+	background:#e1e1e1;
+	ul li{
+		background:#f9f9f9;
+		margin:0 .34rem .34rem;
+		img{
+			width:100%;
+		}
+		.home-np-info{
+			display: flex;
+			justify-content:space-between;
+			.info-count{
+				color:#9a9a9a;
+			}
+			.info-l{
+				margin:.26rem 0 0 .26rem;
+			}
+			.info-r{
+				color: #f78360;
+				line-height:1rem;
+				margin-right: .3rem;
+				font-size: 18px;
+			}
+		}
+	}
+}
