@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>登录</title>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.css' />
+    <style>
+      .container{
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include("header.ejs",{"title":"注册页面",isshow:true,showlogin:true,showuser:false,showlogout:false,topro:false}) %>
+	   
+     <div class="container">
+       <form method="post" action="/register">
+
+         <div class="form-group">
+           <label for="exampleInputEmail1">用户名</label>
+           <input type="text" class="form-control" id="exampleInputEmail1" name="username" placeholder="用户名">
+         </div>
+         <div class="form-group">
+           <label for="exampleInputEmail1">邮箱</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="邮箱">
+         </div>
+         <div class="form-group">
+           <label for="exampleInputPassword1">密码</label>
+           <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password">
+         </div>
+         <button type="submit" class="btn btn-default">注册</button>
+       </form>
+       <% if(isregister){%>
+       <p class="error">该邮箱已注册</p>
+       <%}%>
+     </div>
+    <script src="bootstrap/js/jquery-1.11.0.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

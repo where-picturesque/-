@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.css' />
+    <style>
+      .container{
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include("header.ejs",{"title":"博客后台管理系统",isshow:true,showlogout:true,showlogin:false,showuser:user,topro:true}) %>
+    <div class="container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>用户名</th>
+            <th>标题</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <% for(var i=0;i<articleInfo.length;i++){%>
+          <tr>
+            <td><%= articleInfo[i].author %></td>
+            <td><a href="/detail?id=<%=articleInfo[i]._id%>"><%= articleInfo[i].title %></a></td>
+            <td>
+              <a href="/article/update?id=<%=articleInfo[i]._id%>" ><button type="button" class="btn btn-default">更新</button></a>
+              <a href="/article/del?id=<%=articleInfo[i]._id%>"><button type="button" class="btn btn-danger">删除</button></a>
+            </td>
+          </tr>
+        <%}%>
+        </tbody>
+      </table>
+    </div>
+   
+	
+    <script src="bootstrap/js/jquery-1.11.0.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

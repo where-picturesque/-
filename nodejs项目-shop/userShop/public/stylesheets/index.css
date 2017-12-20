@@ -1,0 +1,228 @@
+body{
+	font-size:12px;
+}
+.pro-list-oper {
+    height: 46px;
+    background-color: #f5f5f5;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    z-index: 9;
+    margin-bottom: 20px;
+}
+
+.z-oper-current-selected {
+    background-color: #fff;
+    color: #f10180;
+    border: 1px solid #f10180;
+    margin: -1px 0 0 -1px;
+    z-index: 10;
+}
+
+.oper-hd-general {
+    width: 67px;
+}
+
+.oper-hd-discot,
+.oper-hd-general,
+.oper-hd-price {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    line-height: 46px;
+    border-right: 1px solid #dfdfdf;
+}
+
+.oper-hd-discot,
+.oper-price-tc {
+    width: 78px;
+    text-align: center;
+}
+
+.db-arrow-change {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    color: #999;
+}
+
+.db-arrow-change .i-cat-dis-down {
+    position: absolute;
+    top: -11px;
+}
+.db-arrow-change .i-cat-dis-up {
+    position: absolute;
+    top: -17px;
+}
+.db-arrow-change .i-cat-dis {
+    display: block;
+    line-height: 20px;
+}
+
+.pro-oper .vipFont {
+    vertical-align: middle;
+}
+
+.oper-price-tc,
+.oper-price-tp {
+    display: block;
+    float: left;
+}
+
+.oper-hd-hastock {
+    float: left;
+    padding: 15px 15px 15px 20px;
+}
+
+.page .page-total {
+    margin-right: 22px;
+}
+.oper-hd-hastock:hover a {
+    color: #f10180;
+}
+.page a,
+.page span {
+    display: inline-block;
+}
+
+.page-nub,.good-num {
+    color: #f10180;
+}
+
+.page .page-next,
+.page .page-next-txt,
+.page .page-pre,
+.page .page-pre-txt {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px 0 9px;
+}
+
+.page a,
+.page span {
+    display: inline-block;
+}
+
+.page-next,
+.page-pre,
+.page-pre-txt {
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    color: #d1d1d1;
+}
+
+.page-pre,
+.page-pre-txt {
+    margin: 0 8px 0 12px;
+}
+
+.page a,
+.page-dots,
+.page-next,
+.page-pre,
+.page-pre-txt {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-family: '\5B8B\4F53', arial, sans-serif;
+}
+
+.page .page-next-txt{
+    background-color: #fff;
+    border: 1px solid #b8b8b8;
+    color: #848585;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.page-next-txt:hover{
+    background-color: #f10180;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.page-next-txt i {
+    margin-left: 7px;
+}
+
+.pro-oper {
+    float: left;
+    height: 46px;
+}
+
+.pro-paging {
+    float: right;
+    padding: 10px 10px 10px 0;
+    font-size: 14px;
+}
+
+.z-oper-current-selected {
+    background-color: #fff;
+    color: #f10180;
+    border: 1px solid #f10180;
+    margin: -1px 0 0 -1px;
+    z-index: 10;
+}
+
+.oper-hd-general {
+    width: 67px;
+}
+.oper-hd-hastock .ui-checkbox {
+    margin-top: -3px;
+}
+
+.ui-checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 0;
+    line-height: 0;
+}
+:root .ui-checkbox-simulation:hover {
+    background-position: -24px -21px;
+}
+
+:root .ui-checkbox-simulation {
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url(../images/sprite.png);
+    background-position: -48px 0;
+    width: 19px;
+    height: 16px;
+}
+
+
+
+/*主体商品列表*/
+.main-c{
+	overflow: hidden;
+}
+.main-c-list{
+	width: 120%;
+}
+.list-item-hidden{
+	display: none;
+}
+.list-item{
+	display: block;
+	float: left;
+	width: 235px;
+	height: 363px;
+	margin:0 20px 20px 0;
+}
+.list-item-inner{
+
+}
+.list-item-inner .good-img img{
+	width: 235px;
+	height: 297px;
+}
+.good-info{}
+.good-info .good-price-info{color: #f10180;}
+.good-info .good-price-info .price-text{font-size: 22px;}

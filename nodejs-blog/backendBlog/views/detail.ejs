@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.css' />
+    <style>
+      .container{
+        width: 1000px;
+      }
+      .panel-body img{width: 200px;display: block;}
+    </style>
+  </head>
+  <body>
+    <%- include("header.ejs",{"title":"详情页",isshow:true,showlogout:true,showlogin:false,showuser:user,topro:true}) %>
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">标题：<%= articleInfo.title%></div>
+        <div class="panel-body">
+          <p>正文：</p>
+         <%= articleInfo.content%>
+         <%if(articleInfo.filename){%>
+         <img src="http://localhost:3000/images/<%=articleInfo.filename%>" />
+         <%}%>
+        </div>
+      </div>
+   
+	
+    <script src="bootstrap/js/jquery-1.11.0.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
